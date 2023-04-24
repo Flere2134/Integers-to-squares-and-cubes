@@ -1,3 +1,10 @@
+#function for squaring numbers
+def square(x):
+    return x ** 2
+#function for cubing numbers
+def cube(x):
+    return x ** 3
+
 #open integers.txt for reading
 with open("integers.txt") as my_file:
     numbers = my_file.read().split()
