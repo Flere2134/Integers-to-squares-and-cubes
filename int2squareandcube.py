@@ -20,4 +20,7 @@ for i in numbers:
     else:
         odd_numbers.append(i)
 #create double.txt for even numbers getting square
+with open("double.txt", "w") as double_file:
+    for even in even_numbers:
+        double_file.write(square(even) + "\n")
 #create triple.txt for odd numbers getting cube
