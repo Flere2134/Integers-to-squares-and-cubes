@@ -24,3 +24,6 @@ with open("double.txt", "w") as double_file:
     for even in even_numbers:
         double_file.write(square(even) + "\n")
 #create triple.txt for odd numbers getting cube
+with open("triple.txt", "w") as triple_file:
+    for odd in odd_numbers:
+        triple_file.write(square(odd) + "\n")
